@@ -15,6 +15,7 @@ class PlgContentLinkrel extends JPlugin
         $params = $this->params;
 
         $text = str_replace($params->get('suchbegriff'),$params->get('rels'), $row->text);
+        $text = str_replace($params->get('sucher2'),$params->get('ersetzer2'), $row->text);
 
 		return $row->text = $text;
 

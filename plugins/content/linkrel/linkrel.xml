@@ -24,6 +24,21 @@
 					default="target"
 					>
 				</field>
+
+				<field
+						name="sucher2"
+						type="text"
+						label="Sucher 2"
+						default="noindex"
+				>
+				</field>
+				<field
+					name="ersetzer2"
+					type="text"
+					label="Ersetzer 2"
+					default="target"
+					>
+				</field>
 			</fieldset>
 		</fields>
 	</config>
