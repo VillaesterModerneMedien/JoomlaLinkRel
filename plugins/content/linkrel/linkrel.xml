@@ -11,17 +11,17 @@
 		<fields name="params">
 			<fieldset name="basic">
 				<field
+						name="suchbegriff"
+						type="text"
+						label="Suchbegriff"
+						default="noindex"
+				>
+				</field>
+				<field
 					name="rels"
 					type="text"
 					label="Rels"
 					default="target"
-					>
-				</field>
-				<field
-					name="suchbegriff"
-					type="text"
-					label="Suchbegriff"
-					default="noindex"
 					>
 				</field>
 			</fieldset>
