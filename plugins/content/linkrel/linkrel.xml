@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>plg_content_linkrel</name>
+	<author>Whykiki</author>
+	<creationDate>Februar 2021</creationDate>
+	<description>Add Link rel</description>
+	<files>
+		<filename plugin="linkrel">linkrel.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="rels"
+					type="text"
+					label="Rels"
+					default="target"
+					>
+				</field>
+				<field
+					name="suchbegriff"
+					type="text"
+					label="Suchbegriff"
+					default="noindex"
+					>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
